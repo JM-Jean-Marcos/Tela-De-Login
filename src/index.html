@@ -5,8 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Teko:wght@600&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="text-white inter-500">
+
+    <div class="bg-[#1F1517] w-screen h-screen flex flex-col justify-center items-center">
+        <main class="bg-[#181012] h-[30rem] p-[2rem] flex flex-col gap-10 rounded-xl">
+            <header class="flex justify-center">
+                <h1 class="text-[1.2rem]">Login</h1>
+            </header>
+            <form action="" class="flex flex-col gap-4">
+                <label class="block" for="usuario">Usuário</label>
+                <input class="text-black" id="usuario" type="text">
+
+                <label class="block" for="senha">Senha</label>
+                <input class="text-black" id="senha" type="password">
+
+                <span></span>
+                
+                <div class="flex justify-end">
+                    <p class="text-[0.7rem]">Esqueci a senha</p>
+                </div>
+
+
+                <div class="flex gap-6 justify-center">
+                    <button type="button" class="p-3 bg-gray-800 text-[0.8rem] rounded-xl">Limpar</button>
+                    <button type="button" class="p-3 bg-[#241A1C] text-[0.8rem] rounded-xl">Entrar</button>
+                </div>
+
+            </form>
+
+        </main>
+    </div>
 </body>
 </html>

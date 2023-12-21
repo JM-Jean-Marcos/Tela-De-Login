@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .inter-500 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+    .teko-600 {
+        font-family: 'Teko', sans-serif;
+        font-weight: 600;
+    }
+}
